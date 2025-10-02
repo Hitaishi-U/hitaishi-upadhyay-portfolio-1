@@ -125,7 +125,7 @@ function Hero() {
                         className="hover:bg-primary hover:text-primary-foreground transition-colors h-10 w-10 sm:h-12 sm:w-12"
                         asChild
                       >
-                        <a href="mailto:hitaishi.upadhyay@example.com" aria-label="Email">
+                        <a href="mailto:hitaishi.upadhyay@gmail.com" aria-label="Email">
                           <Mail className="h-4 w-4 sm:h-5 sm:w-5" />
                         </a>
                       </Button>
@@ -136,7 +136,7 @@ function Hero() {
                         className="hover:bg-primary hover:text-primary-foreground transition-colors h-10 w-10 sm:h-12 sm:w-12"
                         asChild
                       >
-                        <a href="tel:+1234567890" aria-label="Phone">
+                        <a href="tel:+919876543210" aria-label="Phone">
                           <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
                         </a>
                       </Button>
