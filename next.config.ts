@@ -10,8 +10,12 @@ const nextConfig: NextConfig = {
         loaders: [LOADER]
       }
     }
+  },
+  images: {
+    domains: ['drive.google.com'], // ✅ allow Google Drive images
   }
 };
 
 export default nextConfig;
+
 // Orchids restart: 1759382785980
