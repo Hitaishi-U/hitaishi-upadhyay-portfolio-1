@@ -35,7 +35,7 @@ interface SkillsProps {
   className?: string
 }
 
-export default function Skills({ className }: SkillsProps) {
+function Skills({ className }: SkillsProps) {
   return (
     <section className={className}>
       <div className="text-center mb-8 sm:mb-12">
@@ -104,3 +104,5 @@ export default function Skills({ className }: SkillsProps) {
     </section>
   )
 }
+
+export default Skills

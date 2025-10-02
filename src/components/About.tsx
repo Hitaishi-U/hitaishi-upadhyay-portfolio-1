@@ -41,7 +41,7 @@ const interests = [
   { name: "Data-Driven Solutions", icon: Database }
 ]
 
-export default function About() {
+function About() {
   return (
     <section className="py-12 sm:py-16 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
@@ -138,3 +138,5 @@ export default function About() {
     </section>
   )
 }
+
+export default About

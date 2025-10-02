@@ -66,7 +66,7 @@ interface ProjectsProps {
   className?: string
 }
 
-export default function Projects({ className }: ProjectsProps) {
+function Projects({ className }: ProjectsProps) {
   const projects = [
     {
       title: "Credit Risk Assessment Using ML",
@@ -128,3 +128,5 @@ export default function Projects({ className }: ProjectsProps) {
     </section>
   )
 }
+
+export default Projects

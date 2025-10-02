@@ -12,7 +12,7 @@ const navigationItems = [
   { label: 'Contact', href: '#contact' },
 ]
 
-export default function Navigation() {
+function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -124,3 +124,5 @@ export default function Navigation() {
     </nav>
   )
 }
+
+export default Navigation

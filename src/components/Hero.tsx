@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogTrigger, DialogHeader, DialogTitle } from 
 import { motion } from "motion/react"
 import { Mail, Phone, Linkedin, Github, Twitter } from "lucide-react"
 
-export default function Hero() {
+function Hero() {
   return (
     <section className="min-h-screen bg-background relative overflow-hidden pt-20 md:pt-0 w-full">
       {/* Background gradient */}
@@ -216,3 +216,5 @@ export default function Hero() {
     </section>
   )
 }
+
+export default Hero
